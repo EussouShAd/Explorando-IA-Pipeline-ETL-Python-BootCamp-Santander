@@ -7,8 +7,8 @@ import openai
 # Denição da URL da API
 sdw2023_api_url = 'https://sdw-2023-prd.up.railway.app'
 
-#API Key da OpenAI, ela será salva como uma variável de ambiente
-openai_api_key = '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'
+#API Key da OpenAI, ela será salva como uma variável de ambiente, obs. coloque sua chave essa é exemplo.
+openai_api_key = 'sk-uOTS4rab4OUkSFAm5Vw0T3BfgtFJIANCk2dXJJ9OGIx4dTU8'
 
 # Acessando os dados do arquivo com o Panda para um DataFrame e convertendo os IDs para uma lista.
 df = pd.read_csv('SDW2023.csv')
